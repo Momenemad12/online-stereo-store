@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <!-- Font Awesome (للايقونات) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <style>
+      :root {
+        --bg: #000;
+        --card: rgba(93, 93, 93, 0.45);
+        --stroke: rgba(255, 255, 255, 0.14);
+        --text: #fff;
+        --muted: rgba(255, 255, 255, 0.75);
+        --input: rgba(0, 0, 0, 0.35);
+        --focus: rgba(255, 255, 255, 0.35);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background:
+          radial-gradient(
+            900px 400px at 20% 10%,
+            rgba(255, 255, 255, 0.08),
+            transparent
+          ),
+          radial-gradient(
+            700px 400px at 90% 70%,
+            rgba(255, 255, 255, 0.06),
+            transparent
+          ),
+          var(--bg);
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--text);
+        padding: 30px 14px;
+      }
+
+      .auth-card {
+        width: min(420px, 100%);
+        background: var(--card);
+        border: 1px solid var(--stroke);
+        border-radius: 20px;
+        padding: 28px;
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
+      }
+
+      
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+        opacity: 0.95;
+      }
+      .brand .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #fff;
+        box-shadow: 0 0 18px rgba(255, 255, 255, 0.35);
+      }
+      h2 {
+        margin: 6px 0 6px;
+        font-size: 26px;
+        letter-spacing: 0.3px;
+      }
+      .sub {
+        margin: 0 0 18px;
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.4;
+      }
+
+      .field {
+        margin-bottom: 14px;
+      }
+      label {
+        display: block;
+        margin: 0 0 8px;
+        font-size: 13px;
+        color: var(--muted);
+      }
+
+      .input-wrap {
+        position: relative;
+      }
+      .input-wrap i.left {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: rgba(255, 255, 255, 0.65);
+        pointer-events: none;
+        font-size: 15px;
+      }
+      .input {
+        width: 100%;
+        padding: 12px 42px 12px 40px;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        background: var(--input);
+        color: var(--text);
+        outline: none;
+        transition: 0.25s;
+      }
+      .input::placeholder {
+        color: rgba(255, 255, 255, 0.45);
+      }
+
+      .input:hover {
+        border-color: rgba(255, 255, 255, 0.22);
+      }
+      .input:focus {
+        border-color: var(--focus);
+        box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.08);
+      }
+
+      .toggle-pass {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        border: none;
+        background: transparent;
+        color: rgba(255, 255, 255, 0.7);
+        cursor: pointer;
+        padding: 6px 8px;
+        border-radius: 10px;
+        transition: 0.2s;
+      }
+      .toggle-pass:hover {
+        background: rgba(255, 255, 255, 0.1);
+        color: #fff;
+      }
+
+      .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin: 10px 0 16px;
+        flex-wrap: wrap;
+      }
+
+      .check {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .check input {
+        accent-color: #fff;
+        width: 15px;
+        height: 15px;
+      }
+
+      .link {
+        color: rgba(255, 255, 255, 0.85);
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: bold;
+        transition: 0.2s;
+      }
+      .link:hover {
+        opacity: 0.75;
+        text-decoration: underline;
+      }
+
+      .btn {
+        width: 100%;
+        padding: 12px 14px;
+        border-radius: 999px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        background: #fff;
+        color: #000;
+        font-weight: 800;
+        cursor: pointer;
+        transition: 0.25s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+      .btn:hover {
+        transform: translateY(-1px);
+        background: #000;
+        color: #fff;
+        border-color: rgba(255, 255, 255, 0.55);
+        box-shadow: 0 14px 30px rgba(0, 0, 0, 0.45);
+      }
+      .btn:active {
+        transform: translateY(0);
+      }
+
+      .divider {
+        margin: 18px 0 14px;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.14);
+      }
+
+      .switch {
+        text-align: center;
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .switch a {
+        color: #fff;
+        font-weight: 800;
+        text-decoration: none;
+      }
+      .switch a:hover {
+        text-decoration: underline;
+        opacity: 0.9;
+      }
+
+      /* رسائل بسيطة تحت الفورم */
+      .hint {
+        margin-top: 10px;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.55);
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="auth-card">
+      <div class="brand">
+        <span class="dot"></span>
+<span class="brand-name">T. Johnson</span>
+      </div>
+
+      <h2>Welcome back</h2>
+      <p class="sub">Log in to continue shopping and manage your account.</p>
+
+      <form>
+        <div class="field">
+          <label for="email">Email</label>
+          <div class="input-wrap">
+            <i class="fa-solid fa-envelope left"></i>
+            <input
+              class="input"
+              id="email"
+              type="email"
+              placeholder="name@email.com"
+              required
+            />
+          </div>
+        </div>
+
+<div class="field">
+  <label for="password">Password</label>
+
+  <div class="input-wrap">
+    <i class="fa-solid fa-lock left"></i>
+
+    <input class="input" id="password" type="password" placeholder="Enter your password" required>
+
+    <button class="toggle-pass" type="button" onclick="togglePassword('password', this)" aria-label="Show/Hide password">
+      <i class="fa-regular fa-eye"></i>
+    </button>
+  </div>
+</div>
+
+        <div class="row">
+          <label class="check">
+            <input type="checkbox" />
+            Remember me
+          </label>
+
+          <a class="link" href="#">Forgot password?</a>
+        </div>
+
+        <button class="btn" type="submit">
+          <i class="fa-solid fa-arrow-right-to-bracket"></i>
+          Log in
+        </button>
+
+        <div class="divider"></div>
+
+        <div class="switch">
+          Don’t have an account? <a href="register.html">Create one</a>
+        </div>
+
+        <div class="hint">Tip: Hover on inputs & buttons 👀</div>
+      </form>
+    </div>
+  </body>
+</html>
