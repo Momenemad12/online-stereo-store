@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online Stereo Store</title>
-        <link
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
@@ -13,155 +13,133 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="css/shop.css">
-</head>
-<body>
-    
-<section>
-<nav class="container">
-  <div class="title">
-    <p>T. Johnson</p>
-  </div>
+    <link rel="stylesheet" href="css/shop.css" />
+  </head>
+  <body>
+    <section>
+      <nav class="container">
+        <div class="title">
+          <p>T. Johnson</p>
+        </div>
 
-  <div class="all-links">
-    <div class="link-1">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
+        <div class="all-links">
+          <div class="link-1">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
 
-    <div class="link-2">
-      <ul>
-        <li>
-          <a href="login.html" class="btn login-btn">
-            <i class="fa-solid fa-circle-user"></i>
-            Log in
-          </a>
-        </li>
+          <div class="link-2">
+            <ul>
+              <li>
+                <a href="login.html" class="btn login-btn">
+                  <i class="fa-solid fa-circle-user"></i>
+                  Log in
+                </a>
+              </li>
 
-        <li>
-          <a href="register.html" class="btn register-btn">
-            Register
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+              <li>
+                <a href="register.html" class="btn register-btn"> Register </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
+      <div class="product-all">
+        <div class="sidebar">
+          <!-- Browse by -->
+          <div class="browse-by">
+            <h3>Browse by</h3>
+            <hr />
 
+            <a href="#">All Products</a><br />
+            <a href="#">Audio Accessories</a><br />
+            <a href="#">Sound Systems</a><br />
+            <a href="#">Speakers</a>
+          </div>
 
+          <br /><br />
 
-<div class="product-all">
+          <!-- Filter by -->
+          <div class="filter-by">
+            <h3>Filter by</h3>
+            <hr />
 
+            <!-- Price -->
+            <div class="filter-group">
+              <label for="price-range">Price</label>
 
+              <div class="price-range-wrapper">
+                <span>$199</span>
 
+                <input
+                  type="range"
+                  id="price-range"
+                  name="price-range"
+                  min="199"
+                  max="700"
+                  step="1"
+                  value="199"
+                />
 
+                <span>$700</span>
+              </div>
+            </div>
+          </div>
 
-<div class="sidebar">
+          <hr />
 
-  <!-- Browse by -->
-  <div class="browse-by">
-    <h3>Browse by</h3>
-    <hr>
+          <!-- Length -->
+          <div class="filter-section">
+            <div class="filter-title">
+              <span>Length</span>
+              <span>—</span>
+            </div>
 
-    <a href="#">All Products</a><br>
-    <a href="#">Audio Accessories</a><br>
-    <a href="#">Sound Systems</a><br>
-    <a href="#">Speakers</a>
-  </div>
+            <div class="filter-content">
+              <label><input type="checkbox" /> 3 ft</label><br />
+              <label><input type="checkbox" /> 6 ft</label>
+            </div>
+          </div>
 
-  <br><br>
+          <hr />
 
-  <!-- Filter by -->
-  <div class="filter-by">
-    <h3>Filter by</h3>
-    <hr>
+          <!-- Shape -->
+          <div class="filter-section">
+            <div class="filter-title">
+              <span>Shape</span>
+              <span>—</span>
+            </div>
 
-    <!-- Price -->
-<div class="filter-group">
-  <label for="price-range">Price</label>
+            <div class="filter-content">
+              <label><input type="checkbox" /> Rectangular</label><br />
+              <label><input type="checkbox" /> Square</label>
+            </div>
+          </div>
 
-  <div class="price-range-wrapper">
-    <span>$199</span>
+          <hr />
 
-    <input
-      type="range"
-      id="price-range"
-      name="price-range"
-      min="199"
-      max="700"
-      step="1"
-      value="199"
-    />
+          <!-- Type -->
+          <div class="filter-section">
+            <div class="filter-title">
+              <span>Type</span>
+              <span>—</span>
+            </div>
 
-    <span>$700</span>
-  </div>
-</div>
-    </div>
+            <div class="filter-content">
+              <label><input type="checkbox" /> On-Ear</label><br />
+              <label><input type="checkbox" /> Over-Ear</label>
+            </div>
+          </div>
 
-    <hr>
+          <hr />
+        </div>
 
-    <!-- Length -->
-    <div class="filter-section">
-      <div class="filter-title">
-        <span>Length</span>
-        <span>—</span>
-      </div>
-
-      <div class="filter-content">
-        <label><input type="checkbox"> 3 ft</label><br>
-        <label><input type="checkbox"> 6 ft</label>
-      </div>
-    </div>
-
-    <hr>
-
-    <!-- Shape -->
-    <div class="filter-section">
-      <div class="filter-title">
-        <span>Shape</span>
-        <span>—</span>
-      </div>
-
-      <div class="filter-content">
-        <label><input type="checkbox"> Rectangular</label><br>
-        <label><input type="checkbox"> Square</label>
-      </div>
-    </div>
-
-    <hr>
-
-    <!-- Type -->
-    <div class="filter-section">
-      <div class="filter-title">
-        <span>Type</span>
-        <span>—</span>
-      </div>
-
-      <div class="filter-content">
-        <label><input type="checkbox"> On-Ear</label><br>
-        <label><input type="checkbox"> Over-Ear</label>
-      </div>
-    </div>
-
-    <hr>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-      <!-- <div class="products">
+        <!-- <div class="products">
         <h2>All Products</h2>
         <div class="product">
           <div>
@@ -263,201 +241,179 @@
         </div>
       </div> -->
 
+        <div class="products">
+          <h2>All Products</h2>
 
+          <div class="product">
+            <a href="product-details.html?id=1" class="product-link">
+              <div>
+                <img src="images/Shop/image -1-.png" alt="VoltBoom X1" />
+              </div>
+              <div class="title-product">
+                <p>VoltBoom X1</p>
+                <p>$149.00</p>
+              </div>
+            </a>
+            <button class="add-buttn">Add To Cart</button>
+          </div>
 
-      <div class="products">
-  <h2>All Products</h2>
+          <div class="product">
+            <a href="product-details.html?id=2" class="product-link">
+              <div>
+                <img src="images/Shop/image-2-.png" alt="TitanTower Pro" />
+              </div>
+              <div class="title-product">
+                <p>TitanTower Pro</p>
+                <p>$599.00</p>
+              </div>
+            </a>
+            <button class="add-buttn">Add To Cart</button>
+          </div>
 
-  <div class="product">
-    <a href="product-details.html?id=1" class="product-link">
-      <div>
-        <img src="images/Shop/image -1-.png" alt="VoltBoom X1" />
-      </div>
-      <div class="title-product">
-        <p>VoltBoom X1</p>
-        <p>$149.00</p>
-      </div>
-    </a>
-    <button class="add-buttn">Add To Cart</button>
-  </div>
+          <div class="product">
+            <a href="product-details.html?id=3" class="product-link">
+              <div>
+                <img src="images/Shop/image-3-.png" alt="BlueForce Studio" />
+              </div>
+              <div class="title-product">
+                <p>BlueForce Studio</p>
+                <p>$249.00</p>
+              </div>
+            </a>
+            <button class="add-buttn">Add To Cart</button>
+          </div>
 
-  <div class="product">
-    <a href="product-details.html?id=2" class="product-link">
-      <div>
-        <img src="images/Shop/image-2-.png" alt="TitanTower Pro" />
-      </div>
-      <div class="title-product">
-        <p>TitanTower Pro</p>
-        <p>$599.00</p>
-      </div>
-    </a>
-    <button class="add-buttn">Add To Cart</button>
-  </div>
+          <div class="product">
+            <a href="product-details.html?id=4" class="product-link">
+              <div>
+                <img src="images/Shop/image-4-.png" alt="BassCore Elite" />
+              </div>
+              <div class="title-product">
+                <p>BassCore Elite</p>
+                <p>$399.00</p>
+              </div>
+            </a>
+            <button class="add-buttn">Add To Cart</button>
+          </div>
 
-  <div class="product">
-    <a href="product-details.html?id=3" class="product-link">
-      <div>
-        <img src="images/Shop/image-3-.png" alt="BlueForce Studio" />
-      </div>
-      <div class="title-product">
-        <p>BlueForce Studio</p>
-        <p>$249.00</p>
-      </div>
-    </a>
-    <button class="add-buttn">Add To Cart</button>
-  </div>
+          <div class="product">
+            <a href="product-details.html?id=5" class="product-link">
+              <div>
+                <img src="images/Shop/image-5-.png" alt="ThunderBox Max" />
+              </div>
+              <div class="title-product">
+                <p>ThunderBox Max</p>
+                <p>$329.00</p>
+              </div>
+            </a>
+            <button class="add-buttn">Add To Cart</button>
+          </div>
 
-  <div class="product">
-    <a href="product-details.html?id=4" class="product-link">
-      <div>
-        <img src="images/Shop/image-4-.png" alt="BassCore Elite" />
-      </div>
-      <div class="title-product">
-        <p>BassCore Elite</p>
-        <p>$399.00</p>
-      </div>
-    </a>
-    <button class="add-buttn">Add To Cart</button>
-  </div>
+          <div class="product">
+            <a href="product-details.html?id=6" class="product-link">
+              <div>
+                <img src="images/Shop/image-6-.png" alt="NovaBass Cube" />
+              </div>
+              <div class="title-product">
+                <p>NovaBass Cube</p>
+                <p>$300.00</p>
+              </div>
+            </a>
+            <button class="add-buttn">Add To Cart</button>
+          </div>
 
-  <div class="product">
-    <a href="product-details.html?id=5" class="product-link">
-      <div>
-        <img src="images/Shop/image-5-.png" alt="ThunderBox Max" />
-      </div>
-      <div class="title-product">
-        <p>ThunderBox Max</p>
-        <p>$329.00</p>
-      </div>
-    </a>
-    <button class="add-buttn">Add To Cart</button>
-  </div>
+          <div class="product">
+            <a href="product-details.html?id=7" class="product-link">
+              <div>
+                <img src="images/Shop/image-7-.png" alt="SonicLink Pro Cable" />
+              </div>
+              <div class="title-product">
+                <p>SonicLink Pro Cable</p>
+                <p>$29.00</p>
+              </div>
+            </a>
+            <button class="add-buttn">Add To Cart</button>
+          </div>
 
-  <div class="product">
-    <a href="product-details.html?id=6" class="product-link">
-      <div>
-        <img src="images/Shop/image-6-.png" alt="NovaBass Cube" />
-      </div>
-      <div class="title-product">
-        <p>NovaBass Cube</p>
-        <p>$300.00</p>
-      </div>
-    </a>
-    <button class="add-buttn">Add To Cart</button>
-  </div>
+          <div class="product">
+            <a href="product-details.html?id=8" class="product-link">
+              <div>
+                <img src="images/Shop/image-8-.png" alt="AcoustiPad Prime" />
+              </div>
+              <div class="title-product">
+                <p>AcoustiPad Prime</p>
+                <p>$89.00</p>
+              </div>
+            </a>
+            <button class="add-buttn">Add To Cart</button>
+          </div>
 
-  <div class="product">
-    <a href="product-details.html?id=7" class="product-link">
-      <div>
-        <img src="images/Shop/image-7-.png" alt="SonicLink Pro Cable" />
-      </div>
-      <div class="title-product">
-        <p>SonicLink Pro Cable</p>
-        <p>$29.00</p>
-      </div>
-    </a>
-    <button class="add-buttn">Add To Cart</button>
-  </div>
-
-  <div class="product">
-    <a href="product-details.html?id=8" class="product-link">
-      <div>
-        <img src="images/Shop/image-8-.png" alt="AcoustiPad Prime" />
-      </div>
-      <div class="title-product">
-        <p>AcoustiPad Prime</p>
-        <p>$89.00</p>
-      </div>
-    </a>
-    <button class="add-buttn">Add To Cart</button>
-  </div>
-
-  <div class="product">
-    <a href="product-details.html?id=9" class="product-link">
-      <div>
-        <img src="images/Shop/image-9-.png" alt="AeroBeat Headset" />
-      </div>
-      <div class="title-product">
-        <p>AeroBeat Headset</p>
-        <p>$199.00</p>
-      </div>
-    </a>
-    <button class="add-buttn">Add To Cart</button>
-  </div>
-
-</div>
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-      <footer class="neo-footer">
-  <div class="neo-wrap">
-
-    <div class="neo-head">
-      <div class="neo-brand">
-        <h2>T. Johnson</h2>
-        <p>Designing clean, futuristic experiences.</p>
-      </div>
-
-      <div class="neo-pill">
-        <span class="dot"></span>
-        <span>Online • Available for projects</span>
-      </div>
-    </div>
-
-    <div class="neo-grid">
-      <div class="neo-block">
-        <h4>Contact</h4>
-        <p>123-456-7890</p>
-        <p>info@mysite.com</p>
-        <p>San Francisco, CA</p>
-
-        <div class="neo-social">
-          <a href="#" aria-label="Instagram">IG</a>
-          <a href="#" aria-label="Facebook">FB</a>
-          <a href="#" aria-label="YouTube">YT</a>
+          <div class="product">
+            <a href="product-details.html?id=9" class="product-link">
+              <div>
+                <img src="images/Shop/image-9-.png" alt="AeroBeat Headset" />
+              </div>
+              <div class="title-product">
+                <p>AeroBeat Headset</p>
+                <p>$199.00</p>
+              </div>
+            </a>
+            <button class="add-buttn">Add To Cart</button>
+          </div>
         </div>
       </div>
 
-      <div class="neo-block">
-        <h4>Links</h4>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Accessibility</a>
-        <a href="#">Shipping</a>
-        <a href="#">Terms</a>
-        <a href="#">Refund</a>
-      </div>
+      <footer class="neo-footer">
+        <div class="neo-wrap">
+          <div class="neo-head">
+            <div class="neo-brand">
+              <h2>T. Johnson</h2>
+              <p>Designing clean, futuristic experiences.</p>
+            </div>
 
-      <div class="neo-block">
-        <h4>Newsletter</h4>
-        <p class="muted">Monthly drops. No spam.</p>
+            <div class="neo-pill">
+              <span class="dot"></span>
+              <span>Online • Available for projects</span>
+            </div>
+          </div>
 
-        <form class="neo-form">
-          <input type="email" placeholder="Email address" required>
-          <button type="submit">Subscribe</button>
-        </form>
+          <div class="neo-grid">
+            <div class="neo-block">
+              <h4>Contact</h4>
+              <p>123-456-7890</p>
+              <p>info@mysite.com</p>
+              <p>San Francisco, CA</p>
 
-        <p class="tiny">© 2035 T. Johnson — Powered & secured by Wix</p>
-      </div>
-    </div>
+              <div class="neo-social">
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="Facebook">FB</a>
+                <a href="#" aria-label="YouTube">YT</a>
+              </div>
+            </div>
 
-  </div>
-</footer>
-</section>
+            <div class="neo-block">
+              <h4>Links</h4>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Accessibility</a>
+              <a href="#">Shipping</a>
+              <a href="#">Terms</a>
+              <a href="#">Refund</a>
+            </div>
 
-    
-</body>
+            <div class="neo-block">
+              <h4>Newsletter</h4>
+              <p class="muted">Monthly drops. No spam.</p>
+
+              <form class="neo-form">
+                <input type="email" placeholder="Email address" required />
+                <button type="submit">Subscribe</button>
+              </form>
+
+              <p class="tiny">© 2035 T. Johnson — Powered & secured by Wix</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
 </html>

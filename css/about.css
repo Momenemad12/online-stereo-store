@@ -56,7 +56,6 @@ ul {
   border-left: 1px solid rgba(255, 255, 255, 0.4);
 }
 
-
 .btn {
   display: flex;
   align-items: center;
@@ -67,7 +66,6 @@ ul {
   text-decoration: none;
   transition: 0.3s;
 }
-
 
 .login-btn {
   background: transparent;
@@ -80,7 +78,6 @@ ul {
   color: black;
 }
 
-
 .register-btn {
   background: white;
   color: black;
@@ -91,30 +88,6 @@ ul {
   color: white;
   border: 1px solid white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .title-about {
   background-color: rgb(255, 255, 255);
@@ -130,19 +103,16 @@ ul {
 .title-about p {
   margin: 0;
   padding-left: 70px;
-
 }
 
 .title-one- {
   font-size: 70px;
   font-weight: bold;
   padding-bottom: 50px;
-
 }
 
 .title-two {
   font-size: 25px;
-
 }
 
 .books-info {
@@ -158,7 +128,6 @@ ul {
 .books-right {
   width: 49%;
 }
-
 
 .books-right img {
   width: 100%;
@@ -204,13 +173,11 @@ ul {
   line-height: 1.2;
 }
 
-
-
-.title-about-two{
+.title-about-two {
   margin-bottom: 25px;
-margin-top: 25px;
-margin-left: 15px;
-      background-color: rgb(255, 255, 255);
+  margin-top: 25px;
+  margin-left: 15px;
+  background-color: rgb(255, 255, 255);
   height: 40vh;
   display: flex;
   flex-direction: column;
@@ -219,321 +186,287 @@ margin-left: 15px;
   width: 98%;
 }
 
-
-.title-two-two{
-    margin: 0;
+.title-two-two {
+  margin: 0;
   width: 50%;
   font-size: 19px;
   padding-left: 60px;
-
-
 }
 
-.title-one-two{
+.title-one-two {
   padding-bottom: 50px;
-    margin: 0;
+  margin: 0;
   padding-left: 60px;
   font-size: 80px;
   font-weight: bold;
 }
 
-
-
-
-
-
-
-.description{
+.description {
   display: flex;
   justify-content: space-between;
   gap: 25px;
   height: 100vh;
 }
 
-
-.description-title-one{
+.description-title-one {
   background-color: rgb(42, 42, 42);
-width: 40%;
-margin-left: 20px;
-border-radius: 25px;
-display: flex;
-flex-direction: column;
-padding-left: 7%;
-color: #eee;
-padding-top: 5%;
+  width: 40%;
+  margin-left: 20px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 7%;
+  color: #eee;
+  padding-top: 5%;
 }
 
-
-.description-two{
-font-size: 20px;
-/* font-weight: bold; */
-margin: 0;
+.description-two {
+  font-size: 20px;
+  /* font-weight: bold; */
+  margin: 0;
 }
 
-.description-three{
+.description-three {
   /* margin: 0; */
-margin-top: 10px;
-font-size: 32px;
-width: 60%;
+  margin-top: 10px;
+  font-size: 32px;
+  width: 60%;
 }
 
-
-.description-title-two{
+.description-title-two {
   width: 48%;
   background-color: rgb(42, 42, 42);
   color: #eee;
   margin-right: 20px;
   border-radius: 25px;
-  padding-top:5% ;
+  padding-top: 5%;
 }
 
-
-.description-title-two hr{
+.description-title-two hr {
   margin-left: 30%;
   width: 55%;
-
 }
 
-
-.description-card{
-margin-left: 20%;
+.description-card {
+  margin-left: 20%;
 }
 
-.description-card h3{
+.description-card h3 {
   /* font-weight: bold; */
   margin: 0;
   font-size: 20px;
 }
 
-.description-card p{
+.description-card p {
   width: 75%;
   font-size: 32px;
   /* font-weight: bold; */
   margin-top: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.neo-footer{
-  padding: 15px;;
+.neo-footer {
+  padding: 15px;
 }
 
-.neo-wrap{
-  
-  margin:auto;
-  border-radius:28px;
-  padding:42px 46px;
-  background: rgba(255,255,255,0.92);
-  border:1px solid rgba(255,255,255,0.7);
+.neo-wrap {
+  margin: auto;
+  border-radius: 28px;
+  padding: 42px 46px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.7);
   box-shadow:
-    0 30px 80px rgba(0,0,0,0.45),
-    0 0 0 1px rgba(255,255,255,0.6) inset;
-  position:relative;
-  overflow:hidden;
+    0 30px 80px rgba(0, 0, 0, 0.45),
+    0 0 0 1px rgba(255, 255, 255, 0.6) inset;
+  position: relative;
+  overflow: hidden;
 }
 
-.neo-wrap::before{
-  content:"";
-  position:absolute;
-  inset:-120px;
+.neo-wrap::before {
+  content: "";
+  position: absolute;
+  inset: -120px;
   background:
-    radial-gradient(circle at 30% 20%, rgba(255,255,255,0.6), transparent 60%),
-    radial-gradient(circle at 70% 80%, rgba(0,0,0,0.15), transparent 60%);
+    radial-gradient(
+      circle at 30% 20%,
+      rgba(255, 255, 255, 0.6),
+      transparent 60%
+    ),
+    radial-gradient(circle at 70% 80%, rgba(0, 0, 0, 0.15), transparent 60%);
   filter: blur(10px);
-  z-index:0;
+  z-index: 0;
 }
 
-.neo-wrap > *{ position:relative; z-index:1; }
-
-.neo-head{
-  display:flex;
-  justify-content:space-between;
-  align-items:flex-start;
-  gap:20px;
-  margin-bottom:28px;
+.neo-wrap > * {
+  position: relative;
+  z-index: 1;
 }
 
-.neo-brand h2{
-  margin:0 0 8px;
-  font-size:40px;
-  letter-spacing:-1px;
-  color:#0f172a;
+.neo-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 28px;
 }
 
-.neo-brand p{
-  margin:0;
-  color:#334155;
-  font-size:14px;
+.neo-brand h2 {
+  margin: 0 0 8px;
+  font-size: 40px;
+  letter-spacing: -1px;
+  color: #0f172a;
 }
 
-
-.neo-pill{
-  display:flex;
-  align-items:center;
-  gap:10px;
-  padding:10px 14px;
-  border-radius:999px;
-  background: rgba(255,255,255,0.75);
-  border:1px solid rgba(15,23,42,0.10);
-  color:#0f172a;
-  font-size:13px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+.neo-brand p {
+  margin: 0;
+  color: #334155;
+  font-size: 14px;
 }
 
-.neo-pill .dot{
-  width:10px;
-  height:10px;
-  border-radius:50%;
-  background:#22c55e;
-  box-shadow:0 0 0 6px rgba(34,197,94,0.15);
+.neo-pill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  color: #0f172a;
+  font-size: 13px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
-.neo-grid{
-  display:grid;
+.neo-pill .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #22c55e;
+  box-shadow: 0 0 0 6px rgba(34, 197, 94, 0.15);
+}
+
+.neo-grid {
+  display: grid;
   grid-template-columns: 1.1fr 0.9fr 1fr;
-  gap:26px;
+  gap: 26px;
 }
 
-.neo-block{
-  padding:20px 18px;
-  border-radius:18px;
-  background: rgba(255,255,255,0.70);
-  border:1px solid rgba(15,23,42,0.08);
+.neo-block {
+  padding: 20px 18px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(15, 23, 42, 0.08);
 }
 
-.neo-block h4{
-  margin:0 0 14px;
-  font-size:14px;
-  letter-spacing:0.12em;
-  text-transform:uppercase;
-  color:#0f172a;
+.neo-block h4 {
+  margin: 0 0 14px;
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #0f172a;
 }
 
-.neo-block p{
-  margin:8px 0;
-  color:#000000;
-  font-size:14px;
+.neo-block p {
+  margin: 8px 0;
+  color: #000000;
+  font-size: 14px;
 }
 
-.neo-block a{
-  display:block;
-  width:fit-content;
-  margin:10px 0;
-  text-decoration:none;
-  color:#0f172a;
-  font-size:14px;
-  opacity:0.85;
-  transition:0.2s;
+.neo-block a {
+  display: block;
+  width: fit-content;
+  margin: 10px 0;
+  text-decoration: none;
+  color: #0f172a;
+  font-size: 14px;
+  opacity: 0.85;
+  transition: 0.2s;
 }
 
-.neo-block a:hover{
+.neo-block a:hover {
   transform: translateX(6px);
-  opacity:1;
+  opacity: 1;
 }
 
-
-.neo-social{
-  display:flex;
-  gap:10px;
-  margin-top:14px;
+.neo-social {
+  display: flex;
+  gap: 10px;
+  margin-top: 14px;
 }
 
-.neo-social a{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  height:34px;
-  padding:0 12px;
-  border-radius:12px;
-  background: rgba(15,23,42,0.06);
-  border:1px solid rgba(15,23,42,0.10);
-  font-weight:600;
-  letter-spacing:0.02em;
+.neo-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 12px;
+  background: rgba(15, 23, 42, 0.06);
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
-.neo-social a:hover{
+.neo-social a:hover {
   transform: translateY(-2px);
 }
 
-
-.neo-form{
-  display:flex;
-  gap:10px;
-  margin-top:10px;
+.neo-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
 }
 
-.neo-form input{
-  flex:1;
-  height:44px;
-  border-radius:14px;
-  border:1px solid rgba(15,23,42,0.12);
-  padding:0 14px;
-  outline:none;
-  background: rgba(255,255,255,0.9);
+.neo-form input {
+  flex: 1;
+  height: 44px;
+  border-radius: 14px;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  padding: 0 14px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.9);
 }
 
-.neo-form input:focus{
+.neo-form input:focus {
   border-color: rgba(0, 0, 0, 0.55);
-  box-shadow: 0 0 0 6px rgba(59,130,246,0.12);
+  box-shadow: 0 0 0 6px rgba(59, 130, 246, 0.12);
 }
 
-.neo-form button{
-  height:44px;
-  border-radius:14px;
-  border:1px solid rgba(15,23,42,0.12);
-  padding:0 16px;
-  cursor:pointer;
+.neo-form button {
+  height: 44px;
+  border-radius: 14px;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  padding: 0 16px;
+  cursor: pointer;
   background: linear-gradient(135deg, #111827, #334155);
-  color:#fff;
-  font-weight:700;
-  transition:0.2s;
+  color: #fff;
+  font-weight: 700;
+  transition: 0.2s;
 }
 
-.neo-form button:hover{
+.neo-form button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 16px 35px rgba(0,0,0,0.18);
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.18);
 }
 
-.muted{ opacity:0.75; }
-.tiny{ margin-top:14px; font-size:12px; opacity:0.75; }
-
-
-@media (max-width: 950px){
-  .neo-wrap{ padding:32px 18px; }
-  .neo-head{ flex-direction:column; }
-  .neo-grid{ grid-template-columns:1fr; }
+.muted {
+  opacity: 0.75;
+}
+.tiny {
+  margin-top: 14px;
+  font-size: 12px;
+  opacity: 0.75;
 }
 
+@media (max-width: 950px) {
+  .neo-wrap {
+    padding: 32px 18px;
+  }
+  .neo-head {
+    flex-direction: column;
+  }
+  .neo-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
 /* =========================
    RESPONSIVE (PAGE 1) - COMPLETE FINAL
@@ -541,62 +474,109 @@ margin-left: 20%;
    Put at END of CSS
    ========================= */
 
-html, body { overflow-x: hidden; }
-img { max-width: 100%; height: auto; }
+html,
+body {
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 /* ✅ keep cards not full width on mobile */
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .container,
   .title-about,
   .title-about-two,
   .books-info,
   .description,
-  .neo-wrap{
+  .neo-wrap {
     width: 92%;
     margin: 14px auto;
   }
 }
-@media (max-width: 480px){
+@media (max-width: 480px) {
   .container,
   .title-about,
   .title-about-two,
   .books-info,
   .description,
-  .neo-wrap{
+  .neo-wrap {
     width: 94%;
     margin: 12px auto;
   }
 }
 
 /* ✅ Tablet */
-@media (max-width: 1024px){
-  .title-about{ height: auto; padding: 40px 0; }
-  .title-one-{ font-size: 58px; padding-bottom: 28px; }
-  .title-two{ font-size: 20px; }
+@media (max-width: 1024px) {
+  .title-about {
+    height: auto;
+    padding: 40px 0;
+  }
+  .title-one- {
+    font-size: 58px;
+    padding-bottom: 28px;
+  }
+  .title-two {
+    font-size: 20px;
+  }
 
-  .books-info{ height: auto; padding: 0 12px; }
-  .text-big{ font-size: 32px; }
-  .text-small{ width: 70%; font-size: 18px; }
+  .books-info {
+    height: auto;
+    padding: 0 12px;
+  }
+  .text-big {
+    font-size: 32px;
+  }
+  .text-small {
+    width: 70%;
+    font-size: 18px;
+  }
 
-  .title-about-two{ height: auto; padding: 40px 0; margin-left: auto; }
-  .title-one-two{ font-size: 62px; padding-bottom: 24px; }
-  .title-two-two{ width: 70%; font-size: 18px; }
+  .title-about-two {
+    height: auto;
+    padding: 40px 0;
+    margin-left: auto;
+  }
+  .title-one-two {
+    font-size: 62px;
+    padding-bottom: 24px;
+  }
+  .title-two-two {
+    width: 70%;
+    font-size: 18px;
+  }
 
-  .description{ height: auto; padding: 20px 12px; }
-  .description-title-one{ width: 48%; margin-left: 0; }
-  .description-title-two{ width: 48%; margin-right: 0; }
-  .description-three{ width: 85%; font-size: 28px; }
-  .description-card{ margin-left: 14%; }
-  .description-card p{ font-size: 28px; }
+  .description {
+    height: auto;
+    padding: 20px 12px;
+  }
+  .description-title-one {
+    width: 48%;
+    margin-left: 0;
+  }
+  .description-title-two {
+    width: 48%;
+    margin-right: 0;
+  }
+  .description-three {
+    width: 85%;
+    font-size: 28px;
+  }
+  .description-card {
+    margin-left: 14%;
+  }
+  .description-card p {
+    font-size: 28px;
+  }
 }
 
 /* ✅ Mobile */
-@media (max-width: 768px){
-
+@media (max-width: 768px) {
   /* =========================
      NAVBAR (FIX LIKE SCREENSHOT)
      ========================= */
-  .container{
+  .container {
     height: auto;
     padding: 18px 18px 16px;
     flex-direction: column;
@@ -607,30 +587,34 @@ img { max-width: 100%; height: auto; }
     overflow: hidden; /* ✅ prevents clipped look */
   }
 
-  .all-links{
+  .all-links {
     width: 100%;
     display: flex;
-    flex-direction: column;   /* ✅ important */
+    flex-direction: column; /* ✅ important */
     align-items: flex-start;
     gap: 12px;
   }
 
-  .link-1{ width: 100%; }
-  .link-1 ul{
+  .link-1 {
+    width: 100%;
+  }
+  .link-1 ul {
     width: 100%;
     flex-wrap: wrap;
     gap: 16px;
   }
 
-  .link-2{ width: 100%; }
+  .link-2 {
+    width: 100%;
+  }
 
   /* ✅ remove desktop left border + padding (was breaking corners) */
-  .link-2 ul{
+  .link-2 ul {
     width: 100%;
     padding-left: 0 !important;
     border-left: none !important;
 
-    border-top: 0 !important;     /* we will draw our own line */
+    border-top: 0 !important; /* we will draw our own line */
     margin-top: 6px;
     padding-top: 14px;
 
@@ -643,47 +627,47 @@ img { max-width: 100%; height: auto; }
   }
 
   /* ✅ inner divider line (not touching corners) */
-  .link-2 ul::before{
+  .link-2 ul::before {
     content: "";
     position: absolute;
     top: 0;
     left: 14px;
     right: 14px;
     height: 1px;
-    background: rgba(255,255,255,0.35);
+    background: rgba(255, 255, 255, 0.35);
   }
 
-  .btn{
+  .btn {
     padding: 8px 14px;
   }
 
   /* =========================
      ABOUT SECTION
      ========================= */
-  .title-about{
+  .title-about {
     height: auto;
     padding: 30px 0;
     width: 92%;
   }
 
-  .title-about p{
+  .title-about p {
     padding-left: 18px;
     padding-right: 18px;
   }
 
-  .title-one-{
+  .title-one- {
     font-size: 42px;
     padding-bottom: 18px;
   }
 
-  .title-two{
+  .title-two {
     font-size: 18px;
   }
 
   /* =========================
      BOOKS -> STACK
      ========================= */
-  .books-info{
+  .books-info {
     flex-direction: column;
     height: auto;
     gap: 16px;
@@ -692,28 +676,28 @@ img { max-width: 100%; height: auto; }
   }
 
   .books-left,
-  .books-right{
+  .books-right {
     width: 100%;
   }
 
-  .books-right img{
+  .books-right img {
     height: auto;
   }
 
   .text-one,
-  .text-two{
+  .text-two {
     height: auto;
     padding-bottom: 18px;
   }
 
-  .text-big{
+  .text-big {
     font-size: 28px;
     padding-left: 18px;
     padding-right: 18px;
     padding-top: 22px;
   }
 
-  .text-small{
+  .text-small {
     width: 100%;
     font-size: 17px;
     padding-left: 18px;
@@ -724,20 +708,20 @@ img { max-width: 100%; height: auto; }
   /* =========================
      TITLE ABOUT TWO
      ========================= */
-  .title-about-two{
+  .title-about-two {
     height: auto;
     padding: 30px 0;
     width: 92%;
     margin: 14px auto;
   }
 
-  .title-one-two{
+  .title-one-two {
     font-size: 46px;
     padding-left: 18px;
     padding-bottom: 18px;
   }
 
-  .title-two-two{
+  .title-two-two {
     width: 100%;
     font-size: 17px;
     padding-left: 18px;
@@ -748,7 +732,7 @@ img { max-width: 100%; height: auto; }
      DESCRIPTION -> STACK
      (fix margins that caused overflow)
      ========================= */
-  .description{
+  .description {
     flex-direction: column;
     height: auto;
     gap: 14px;
@@ -756,35 +740,35 @@ img { max-width: 100%; height: auto; }
   }
 
   .description-title-one,
-  .description-title-two{
+  .description-title-two {
     width: 100%;
     margin: 0;
     border-radius: 25px;
   }
 
-  .description-title-one{
+  .description-title-one {
     padding: 24px 18px;
   }
 
-  .description-title-two{
+  .description-title-two {
     padding: 24px 18px;
   }
 
-  .description-three{
+  .description-three {
     width: 100%;
     font-size: 24px;
   }
 
-  .description-title-two hr{
+  .description-title-two hr {
     margin-left: 0;
     width: 100%;
   }
 
-  .description-card{
+  .description-card {
     margin-left: 0;
   }
 
-  .description-card p{
+  .description-card p {
     width: 100%;
     font-size: 24px;
   }
@@ -792,41 +776,57 @@ img { max-width: 100%; height: auto; }
   /* =========================
      FOOTER
      ========================= */
-  .neo-wrap{
+  .neo-wrap {
     padding: 28px 18px;
   }
 
-  .neo-head{
+  .neo-head {
     flex-direction: column;
   }
 
-  .neo-grid{
+  .neo-grid {
     grid-template-columns: 1fr;
   }
 
-  .neo-form{
+  .neo-form {
     flex-direction: column;
   }
 
-  .neo-form button{
+  .neo-form button {
     width: 100%;
     height: 44px;
   }
 }
 
 /* ✅ Small phones */
-@media (max-width: 480px){
-  .title-one-{ font-size: 34px; }
-  .title-two{ font-size: 16px; }
+@media (max-width: 480px) {
+  .title-one- {
+    font-size: 34px;
+  }
+  .title-two {
+    font-size: 16px;
+  }
 
-  .title-one-two{ font-size: 36px; }
-  .title-two-two{ font-size: 16px; }
+  .title-one-two {
+    font-size: 36px;
+  }
+  .title-two-two {
+    font-size: 16px;
+  }
 
-  .text-big{ font-size: 22px; }
-  .text-small{ font-size: 15px; }
+  .text-big {
+    font-size: 22px;
+  }
+  .text-small {
+    font-size: 15px;
+  }
 
-  .description-three{ font-size: 20px; }
-  .description-card p{ font-size: 20px; }
+  .description-three {
+    font-size: 20px;
+  }
+  .description-card p {
+    font-size: 20px;
+  }
 }
 
 /* =========================
@@ -839,16 +839,18 @@ img { max-width: 100%; height: auto; }
 .form-group input,
 .form-group textarea,
 .form-actions,
-.form-actions button{
+.form-actions button {
   box-sizing: border-box;
 }
 
-.form-group{ width: 100%; min-width: 0; }
+.form-group {
+  width: 100%;
+  min-width: 0;
+}
 
 .form-group input,
-.form-group textarea{
+.form-group textarea {
   width: 100%;
   max-width: 100%;
   display: block;
 }
-

@@ -1,169 +1,152 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Product Details</title>
-      <link
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details</title>
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
 
-  <link rel="stylesheet" href="./css/product-details.css" />
-</head>
-<body>
+    <link rel="stylesheet" href="./css/product-details.css" />
+  </head>
+  <body>
+    <section>
+      <nav class="container">
+        <div class="title">
+          <p>T. Johnson</p>
+        </div>
 
-<section>
-    <nav class="container">
-  <div class="title">
-    <p>T. Johnson</p>
-  </div>
+        <div class="all-links">
+          <div class="link-1">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
 
-  <div class="all-links">
-    <div class="link-1">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
+          <div class="link-2">
+            <ul>
+              <li>
+                <a href="login.html" class="btn login-btn">
+                  <i class="fa-solid fa-circle-user"></i>
+                  Log in
+                </a>
+              </li>
 
-    <div class="link-2">
-      <ul>
-        <li>
-          <a href="login.html" class="btn login-btn">
-            <i class="fa-solid fa-circle-user"></i>
-            Log in
-          </a>
-        </li>
+              <li>
+                <a href="register.html" class="btn register-btn"> Register </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-        <li>
-          <a href="register.html" class="btn register-btn">
-            Register
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
-
-
-    <div class="details-container">
-
+      <div class="details-container">
         <!-- LEFT IMAGE -->
         <div class="details-image">
-        <img id="product-image" src="/images/Shop/image-2-.png" alt="Product Image" />
+          <img
+            id="product-image"
+            src="/images/Shop/image-2-.png"
+            alt="Product Image"
+          />
         </div>
 
         <!-- RIGHT INFO -->
         <div class="details-info">
-        <h1 id="product-title">Premium Sound System</h1>
-        <p class="price" id="product-price">$599.00</p>
+          <h1 id="product-title">Premium Sound System</h1>
+          <p class="price" id="product-price">$599.00</p>
 
-        <div class="select-group">
+          <div class="select-group">
             <label for="channel-select">Channel Configuration</label>
             <select id="channel-select">
-            <option value="">Select</option>
-            <option value="2.0">2.0 Stereo</option>
-            <option value="2.1">2.1 Surround</option>
-            <option value="5.1">5.1 Surround</option>
+              <option value="">Select</option>
+              <option value="2.0">2.0 Stereo</option>
+              <option value="2.1">2.1 Surround</option>
+              <option value="5.1">5.1 Surround</option>
             </select>
-        </div>
+          </div>
 
-        <div class="quantity-group">
+          <div class="quantity-group">
             <label>Quantity</label>
 
             <div class="quantity-box">
-            <button type="button" class="qty-minus">-</button>
-            <span class="qty-value" id="qty-value">1</span>
-            <button type="button" class="qty-plus">+</button>
+              <button type="button" class="qty-minus">-</button>
+              <span class="qty-value" id="qty-value">1</span>
+              <button type="button" class="qty-plus">+</button>
             </div>
-        </div>
+          </div>
 
-        <button type="button" class="add-btn" id="add-to-cart-btn">Add to Cart</button>
+          <button type="button" class="add-btn" id="add-to-cart-btn">
+            Add to Cart
+          </button>
 
-    <a class="back-btn" href="shop.html">← Back to Shop</a>
+          <a class="back-btn" href="shop.html">← Back to Shop</a>
 
-        <div class="description">
+          <div class="description">
             <h3>Description</h3>
             <p id="product-description">
-            Experience crystal-clear audio with deep bass and premium design.
-            Perfect for home studios and entertainment setups.
+              Experience crystal-clear audio with deep bass and premium design.
+              Perfect for home studios and entertainment setups.
             </p>
-        </div>
-        </div>
-
-    </div>
-
-
-
-
-
-
-
-
-
-<footer class="neo-footer">
-  <div class="neo-wrap">
-
-    <div class="neo-head">
-      <div class="neo-brand">
-        <h2>T. Johnson</h2>
-        <p>Designing clean, futuristic experiences.</p>
-      </div>
-
-      <div class="neo-pill">
-        <span class="dot"></span>
-        <span>Online • Available for projects</span>
-      </div>
-    </div>
-
-    <div class="neo-grid">
-      <div class="neo-block">
-        <h4>Contact</h4>
-        <p>123-456-7890</p>
-        <p>info@mysite.com</p>
-        <p>San Francisco, CA</p>
-
-        <div class="neo-social">
-          <a href="#" aria-label="Instagram">IG</a>
-          <a href="#" aria-label="Facebook">FB</a>
-          <a href="#" aria-label="YouTube">YT</a>
+          </div>
         </div>
       </div>
 
-      <div class="neo-block">
-        <h4>Links</h4>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Accessibility</a>
-        <a href="#">Shipping</a>
-        <a href="#">Terms</a>
-        <a href="#">Refund</a>
-      </div>
+      <footer class="neo-footer">
+        <div class="neo-wrap">
+          <div class="neo-head">
+            <div class="neo-brand">
+              <h2>T. Johnson</h2>
+              <p>Designing clean, futuristic experiences.</p>
+            </div>
 
-      <div class="neo-block">
-        <h4>Newsletter</h4>
-        <p class="muted">Monthly drops. No spam.</p>
+            <div class="neo-pill">
+              <span class="dot"></span>
+              <span>Online • Available for projects</span>
+            </div>
+          </div>
 
-        <form class="neo-form">
-          <input type="email" placeholder="Email address" required>
-          <button type="submit">Subscribe</button>
-        </form>
+          <div class="neo-grid">
+            <div class="neo-block">
+              <h4>Contact</h4>
+              <p>123-456-7890</p>
+              <p>info@mysite.com</p>
+              <p>San Francisco, CA</p>
 
-        <p class="tiny">© 2035 T. Johnson — Powered & secured by Wix</p>
-      </div>
-    </div>
+              <div class="neo-social">
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="Facebook">FB</a>
+                <a href="#" aria-label="YouTube">YT</a>
+              </div>
+            </div>
 
-  </div>
-</footer>
+            <div class="neo-block">
+              <h4>Links</h4>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Accessibility</a>
+              <a href="#">Shipping</a>
+              <a href="#">Terms</a>
+              <a href="#">Refund</a>
+            </div>
 
+            <div class="neo-block">
+              <h4>Newsletter</h4>
+              <p class="muted">Monthly drops. No spam.</p>
 
+              <form class="neo-form">
+                <input type="email" placeholder="Email address" required />
+                <button type="submit">Subscribe</button>
+              </form>
 
-
-</section>
-
-</body>
+              <p class="tiny">© 2035 T. Johnson — Powered & secured by Wix</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
 </html>

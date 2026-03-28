@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  padding-top:1px ;
+  padding-top: 1px;
 }
 
 .container {
@@ -442,68 +442,68 @@ ul {
    ========================= */
 
 /* Tablets */
-@media (max-width: 1024px){
-  .description{
+@media (max-width: 1024px) {
+  .description {
     height: auto;
     padding: 20px 12px;
   }
 
-  .description-title-one{
+  .description-title-one {
     width: 48%;
     margin-left: 0;
     padding-left: 6%;
     padding-top: 6%;
   }
 
-  .description-title-two{
+  .description-title-two {
     width: 48%;
     margin-right: 0;
   }
 
-  .description-two{
+  .description-two {
     font-size: 56px;
     width: 90%;
   }
 
-  .description-three{
+  .description-three {
     width: 85%;
   }
 
-  .contact-us-form{
+  .contact-us-form {
     height: auto;
     padding: 40px 0;
   }
 
-  .contact-form{
+  .contact-form {
     padding-top: 8%;
   }
 }
 
 /* Mobile */
-@media (max-width: 768px){
-  .container{
+@media (max-width: 768px) {
+  .container {
     flex-direction: column;
     align-items: flex-start;
     gap: 14px;
     height: auto;
   }
 
-  .all-links{
+  .all-links {
     width: 100%;
     justify-content: space-between;
     gap: 14px;
     flex-wrap: wrap;
   }
 
-  .link-1 ul{
+  .link-1 ul {
     flex-wrap: wrap;
     gap: 16px;
   }
 
-  .link-2 ul{
+  .link-2 ul {
     padding-left: 0;
     border-left: none;
-    border-top: 1px solid rgba(255,255,255,0.35);
+    border-top: 1px solid rgba(255, 255, 255, 0.35);
     padding-top: 12px;
     margin-top: 8px;
     width: 100%;
@@ -511,11 +511,11 @@ ul {
     justify-content: flex-start;
   }
 
-  .btn{
+  .btn {
     padding: 8px 14px;
   }
 
-  .description{
+  .description {
     flex-direction: column;
     height: auto;
     gap: 16px;
@@ -524,87 +524,87 @@ ul {
   }
 
   .description-title-one,
-  .description-title-two{
+  .description-title-two {
     width: 100%;
     margin: 0;
     border-radius: 25px;
   }
 
-  .description-title-one{
+  .description-title-one {
     padding: 28px 20px;
   }
 
-  .description-two{
+  .description-two {
     font-size: 46px;
     width: 100%;
   }
 
-  .description-three{
+  .description-three {
     width: 100%;
   }
 
-  .contact-us-form{
+  .contact-us-form {
     height: auto;
     padding: 28px 0 36px;
   }
 
-  .contact-form{
+  .contact-form {
     width: 92%;
     padding-top: 24px;
   }
 
-  .form-actions{
+  .form-actions {
     justify-content: center;
   }
 
-  .form-actions button{
+  .form-actions button {
     width: 100%;
     max-width: 360px;
   }
 }
 
 /* Small phones */
-@media (max-width: 480px){
-  .container{
+@media (max-width: 480px) {
+  .container {
     width: 96%;
     padding: 14px 14px;
   }
 
-  .title p{
+  .title p {
     font-size: 18px;
   }
 
-  .description-one{
+  .description-one {
     font-size: 18px;
   }
 
-  .description-two{
+  .description-two {
     font-size: 34px;
   }
 
-  .description-three{
+  .description-three {
     font-size: 16px;
   }
 
-  .contact-form{
+  .contact-form {
     width: 94%;
   }
 
-  .form-group label{
+  .form-group label {
     font-size: 16px;
   }
 
-  .form-actions button{
+  .form-actions button {
     height: 54px;
     font-size: 18px;
   }
 }
-@media (max-width: 768px){
-  .neo-form{
+@media (max-width: 768px) {
+  .neo-form {
     flex-direction: column;
   }
 
-  .neo-form button{
+  .neo-form button {
     width: 100%;
     height: 25px;
   }

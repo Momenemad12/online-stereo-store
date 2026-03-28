@@ -1,8 +1,8 @@
-body{
-  margin:0;
-  background:#000;
+body {
+  margin: 0;
+  background: #000;
   font-family: system-ui;
-  color:white;
+  color: white;
 }
 
 body {
@@ -96,105 +96,97 @@ ul {
   border: 1px solid white;
 }
 
-
-
-
-
-
-
-.details-container{
-  max-width:1200px;
-  margin:80px auto;
-  display:flex;
-  gap:80px;
-  padding:0 40px;
+.details-container {
+  max-width: 1200px;
+  margin: 80px auto;
+  display: flex;
+  gap: 80px;
+  padding: 0 40px;
 }
 
-.details-image{
-  flex:1;
-  background:#f3f3f3;
-  border-radius:25px;
-  padding:40px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
+.details-image {
+  flex: 1;
+  background: #f3f3f3;
+  border-radius: 25px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.details-image img{
-  width:100%;
-  max-width:500px;
-  object-fit:contain;
+.details-image img {
+  width: 100%;
+  max-width: 500px;
+  object-fit: contain;
 }
 
-.details-info{
-  flex:1;
-  display:flex;
-  flex-direction:column;
-  gap:20px;
+.details-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.details-info h1{
-  font-size:40px;
-  margin:0;
+.details-info h1 {
+  font-size: 40px;
+  margin: 0;
 }
 
-.price{
-  font-size:26px;
-  font-weight:bold;
+.price {
+  font-size: 26px;
+  font-weight: bold;
 }
 
 .select-group,
-.quantity-group{
-  display:flex;
-  flex-direction:column;
-  gap:10px;
+.quantity-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-select{
-  height:50px;
-  border-radius:8px;
-  border:none;
-  padding:0 10px;
-  font-size:16px;
+select {
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  padding: 0 10px;
+  font-size: 16px;
 }
 
-.quantity-box{
-  display:flex;
-  align-items:center;
-  gap:20px;
+.quantity-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-.quantity-box button{
-  width:40px;
-  height:40px;
-  background:#111;
-  color:white;
-  border:1px solid #555;
-  cursor:pointer;
+.quantity-box button {
+  width: 40px;
+  height: 40px;
+  background: #111;
+  color: white;
+  border: 1px solid #555;
+  cursor: pointer;
 }
 
-.add-btn{
-  margin-top:20px;
-  height:55px;
-  background:#fff;
-  color:#000;
-  font-weight:bold;
-  border:none;
-  border-radius:8px;
-  cursor:pointer;
-  transition:0.3s;
+.add-btn {
+  margin-top: 20px;
+  height: 55px;
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-.add-btn:hover{
-    background-color: #000;
-    border:1px solid   #f3f3f3;
-    color: #ffffff;
+.add-btn:hover {
+  background-color: #000;
+  border: 1px solid #f3f3f3;
+  color: #ffffff;
   /* background:#ddd; */
 }
 
-
-
-.back-btn{
+.back-btn {
   display: inline-block;
   width: 25%;
   margin-top: 20px;
@@ -208,25 +200,17 @@ select{
   font-weight: 500;
 }
 
-.back-btn:hover{
+.back-btn:hover {
   background: #fff;
   color: #000;
 }
-.description{
-  margin-top:40px;
+.description {
+  margin-top: 40px;
 }
 
-.description h3{
-  margin-bottom:10px;
+.description h3 {
+  margin-bottom: 10px;
 }
-
-
-
-
-
-
-
-
 
 .neo-footer {
   padding: 20px;
@@ -432,20 +416,6 @@ select{
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* =========================
    Responsive Fixes
    ========================= */
@@ -510,7 +480,6 @@ select{
     flex: 1;
   }
 }
-
 
 /* 2) Details Section (Product Details) */
 @media (max-width: 1050px) {
@@ -577,7 +546,6 @@ select{
     height: 38px;
   }
 }
-
 
 /* 3) Footer */
 @media (max-width: 950px) {
