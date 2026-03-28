@@ -460,7 +460,7 @@ ul {
   width: 14%;
   height: 9vh;
   margin-top: 50px;
-  transition: all 0.3s ease-in;
+  transition: all .3s ease-in;
 }
 
 .products-btn:hover {
@@ -542,8 +542,9 @@ ul {
 }
 
 .form-group label span {
-  opacity: 0.9;
+  opacity: .9;
 }
+
 
 .form-group input,
 .form-group textarea {
@@ -551,7 +552,7 @@ ul {
   max-width: 100%;
   display: block;
   background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(255,255,255,.55);
   color: #f2f2f2;
   outline: none;
   border-radius: 18px;
@@ -575,7 +576,7 @@ ul {
 
 .form-group input:focus,
 .form-group textarea:focus {
-  border-color: rgba(255, 255, 255, 0.85);
+  border-color: rgba(255,255,255,.85);
 }
 
 .form-actions {
@@ -589,7 +590,7 @@ ul {
   height: 58px;
   border-radius: 18px;
   background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(255,255,255,.55);
   color: #f2f2f2;
   font-size: 20px;
   font-weight: 600;
@@ -598,7 +599,7 @@ ul {
 }
 
 .form-actions button:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255,255,255,.08);
   border-color: rgba(255, 255, 255, 0.75);
 }
 
@@ -675,11 +676,11 @@ ul {
   margin: auto;
   border-radius: 28px;
   padding: 42px 46px;
-  background: rgba(255, 255, 255, 0.92);
-  border: 1px solid rgba(255, 255, 255, 0.7);
+  background: rgba(255,255,255,0.92);
+  border: 1px solid rgba(255,255,255,0.7);
   box-shadow:
-    0 30px 80px rgba(0, 0, 0, 0.45),
-    0 0 0 1px rgba(255, 255, 255, 0.6) inset;
+    0 30px 80px rgba(0,0,0,0.45),
+    0 0 0 1px rgba(255,255,255,0.6) inset;
   position: relative;
   overflow: hidden;
 }
@@ -689,12 +690,8 @@ ul {
   position: absolute;
   inset: -120px;
   background:
-    radial-gradient(
-      circle at 30% 20%,
-      rgba(255, 255, 255, 0.6),
-      transparent 60%
-    ),
-    radial-gradient(circle at 70% 80%, rgba(0, 0, 0, 0.15), transparent 60%);
+    radial-gradient(circle at 30% 20%, rgba(255,255,255,0.6), transparent 60%),
+    radial-gradient(circle at 70% 80%, rgba(0,0,0,0.15), transparent 60%);
   filter: blur(10px);
   z-index: 0;
 }
@@ -731,11 +728,11 @@ ul {
   gap: 10px;
   padding: 10px 14px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.75);
-  border: 1px solid rgba(15, 23, 42, 0.1);
+  background: rgba(255,255,255,0.75);
+  border: 1px solid rgba(15,23,42,0.10);
   color: #0f172a;
   font-size: 13px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
 .neo-pill .dot {
@@ -743,7 +740,7 @@ ul {
   height: 10px;
   border-radius: 50%;
   background: #22c55e;
-  box-shadow: 0 0 0 6px rgba(34, 197, 94, 0.15);
+  box-shadow: 0 0 0 6px rgba(34,197,94,0.15);
 }
 
 .neo-grid {
@@ -755,8 +752,8 @@ ul {
 .neo-block {
   padding: 20px 18px;
   border-radius: 18px;
-  background: rgba(255, 255, 255, 0.7);
-  border: 1px solid rgba(15, 23, 42, 0.08);
+  background: rgba(255,255,255,0.70);
+  border: 1px solid rgba(15,23,42,0.08);
 }
 
 .neo-block h4 {
@@ -802,8 +799,8 @@ ul {
   height: 34px;
   padding: 0 12px;
   border-radius: 12px;
-  background: rgba(15, 23, 42, 0.06);
-  border: 1px solid rgba(15, 23, 42, 0.1);
+  background: rgba(15,23,42,0.06);
+  border: 1px solid rgba(15,23,42,0.10);
   font-weight: 600;
   letter-spacing: 0.02em;
 }
@@ -822,21 +819,21 @@ ul {
   flex: 1;
   height: 44px;
   border-radius: 14px;
-  border: 1px solid rgba(15, 23, 42, 0.12);
+  border: 1px solid rgba(15,23,42,0.12);
   padding: 0 14px;
   outline: none;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255,255,255,0.9);
 }
 
 .neo-form input:focus {
   border-color: rgba(0, 0, 0, 0.55);
-  box-shadow: 0 0 0 6px rgba(59, 130, 246, 0.12);
+  box-shadow: 0 0 0 6px rgba(59,130,246,0.12);
 }
 
 .neo-form button {
   height: 44px;
   border-radius: 14px;
-  border: 1px solid rgba(15, 23, 42, 0.12);
+  border: 1px solid rgba(15,23,42,0.12);
   padding: 0 16px;
   cursor: pointer;
   background: linear-gradient(135deg, #111827, #334155);
@@ -847,315 +844,169 @@ ul {
 
 .neo-form button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 16px 35px rgba(0,0,0,0.18);
 }
 
-.muted {
-  opacity: 0.75;
-}
-.tiny {
-  margin-top: 14px;
-  font-size: 12px;
-  opacity: 0.75;
-}
+.muted { opacity: 0.75; }
+.tiny { margin-top: 14px; font-size: 12px; opacity: 0.75; }
+
+
+
 
 /* =========================
    RESPONSIVE (PAGE 1) - FINAL UPDATED
    Navbar rounded + Inputs fixed (no overflow)
    ========================= */
 
-html,
-body {
+/* ✅ Tablet */
+@media (max-width: 1024px){
+  .header-title h1{ width: 80%; font-size: 56px; }
+  .button-head{ width: 26%; }
+
+  .texts-shop{ padding-left: 60px; }
+  .important-text{ font-size: 44px; }
+
+  .books-info{ height: auto; }
+  .products-btn{ width: 30%; }
+}
+/* =========================
+   MOBILE RESPONSIVE - FINAL MERGED
+   امسح الـ responsive القديم كله وحط ده
+   ========================= */
+
+html, body {
   overflow-x: hidden;
 }
+
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* ✅ Card spacing system (keeps rounded edges visible) */
+/* ===== TABLET ===== */
+@media (max-width: 1024px) {
+  .header-title h1 { width: 80%; font-size: 52px; }
+  .button-head { width: 22%; height: 52px; }
+  .texts-shop { padding-left: 40px; }
+  .important-text { font-size: 44px; }
+  .books-info { height: auto; }
+  .products-btn { width: 26%; }
+  .contact-us-title-two { font-size: 52px; }
+  .description { height: auto; padding: 20px; gap: 16px; }
+  .description-two { font-size: 52px; }
+}
+
+/* ===== MOBILE ===== */
 @media (max-width: 768px) {
-  .container,
-  .title-about,
-  .books-info,
-  .products-our,
-  .contact-us-broduct,
-  .description,
-  .neo-wrap {
+
+  /* ----- Navbar ----- */
+  .container {
     width: 92%;
     margin: 14px auto;
-  }
-}
-@media (max-width: 480px) {
-  .container,
-  .title-about,
-  .books-info,
-  .products-our,
-  .contact-us-broduct,
-  .description,
-  .neo-wrap {
-    width: 94%;
-    margin: 12px auto;
-  }
-}
-
-/* ✅ Tablet */
-@media (max-width: 1024px) {
-  .header-title h1 {
-    width: 80%;
-    font-size: 56px;
-  }
-  .button-head {
-    width: 26%;
-  }
-
-  .texts-shop {
-    padding-left: 60px;
-  }
-  .important-text {
-    font-size: 44px;
-  }
-
-  .books-info {
     height: auto;
-  }
-  .products-btn {
-    width: 30%;
-  }
-}
-
-/* ✅ Mobile */
-@media (max-width: 768px) {
-  /* ---------- Navbar (fix clipped look) ---------- */
-  .container {
-    height: auto;
-    padding: 16px 16px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 14px;
-
-    border-radius: 22px; /* ✅ حواف أوضح */
-    overflow: hidden; /* ✅ يمنع أي عنصر يطلع برّه */
-    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.45); /* ✅ يدي إحساس كارد */
+    gap: 12px;
+    padding: 18px 18px 16px;
+    border-radius: 24px;
+    overflow: hidden;
   }
 
-  .all-links {
-    width: 100%;
-    flex-wrap: wrap;
-    gap: 14px;
-  }
+.all-links {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+}
 
   .link-1 ul {
+    width: 100%;
     flex-wrap: wrap;
     gap: 16px;
   }
 
   .link-2 ul {
+    width: 100%;
     padding-left: 0;
     border-left: none;
-    border-top: 1px solid rgba(255, 255, 255, 0.35);
-    padding-top: 12px;
-    margin-top: 6px;
-    width: 100%;
+    border-top: 0;
+    padding-top: 14px;
+    margin-top: 8px;
+    position: relative;
     flex-wrap: wrap;
+    gap: 12px;
     justify-content: flex-start;
   }
 
-  /* ---------- Header ---------- */
-  .header-title {
-    height: auto;
-    padding: 40px 0 20px;
-  }
-  .header-title h1 {
-    width: 100%;
-    font-size: 42px;
-  }
-  .button-head {
-    width: 55%;
-    height: 56px;
-  }
 
-  /* ---------- Hero image ---------- */
-  .image-one img {
-    width: 100%;
-  }
+  /* ----- Header ----- */
+  .header-title { height: auto; padding: 40px 0 20px; }
+  .header-title h1 { width: 100%; font-size: 42px; margin-bottom: 15px; }
+  .button-head { width: 55%; height: 56px; }
 
-  /* ---------- Text shop ---------- */
+  /* ----- Hero image ----- */
+  .image-one img { width: 100%; }
+
+  /* ----- Text Shop ----- */
   .text-shop {
     flex-direction: column;
     gap: 14px;
     padding: 0;
+    width: 91%;
+    margin-top: 50px;
+    margin-inline: auto;
   }
 
   .texts-shop,
-  .button-shop {
-    width: 100%;
-    height: auto;
-  }
+  .button-shop { width: 100%; height: auto; }
 
-  .texts-shop {
-    padding: 26px 18px;
-  }
+  .texts-shop { padding: 26px 18px; }
+  .important-text { font-size: 32px; }
+  .button-shop { padding: 22px 0; }
 
-  .important-text {
-    font-size: 32px;
-  }
+  /* ----- Products ----- */
+  .products { margin: 14px 0; padding: 10px 0; gap: 14px; }
+  .product { min-width: 210px; }
+  .product img { height: 320px; }
+  .product button { margin-left: auto; margin-right: auto; width: 60%; }
 
-  .button-shop {
-    padding: 22px 0;
-  }
-  .button-shop button {
-    width: 55%;
-    height: 56px;
-  }
+  /* ----- About Title ----- */
+  .title-about { height: auto; padding: 26px 0; }
+  .title-about p { padding-left: 18px; padding-right: 18px; }
 
-  /* ---------- Products horizontal scroll ---------- */
-  .products {
-    margin: 14px 0;
-    padding: 10px 0;
-    gap: 14px;
-  }
-
-  .product {
-    min-width: 210px;
-  }
-  .product img {
-    height: 320px;
-  }
-
-  .product button {
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-  }
-
-  /* ---------- About title ---------- */
-  .title-about {
-    height: auto;
-    padding: 26px 0;
-  }
-  .title-about p {
-    padding-left: 18px;
-    padding-right: 18px;
-  }
-
-  /* ---------- Books ---------- */
+  /* ----- Books ----- */
   .books-info {
     flex-direction: column;
     gap: 16px;
     height: auto;
     margin-top: 14px;
+    overflow: hidden;
   }
 
-  .books-left,
-  .books-right {
-    width: 100%;
-  }
+  .books-left, .books-right { width: 100%; }
+  .books-right img { height: auto; }
 
-  .books-right {
-    position: relative;
-  }
-  .books-right img {
-    height: auto;
-  }
+  .text-one, .text-two { height: auto; padding-bottom: 18px; }
+  .text-big { padding-left: 18px; padding-right: 18px; }
+  .text-small { width: 100%; padding-left: 18px; padding-right: 18px; }
 
-  .books-right button {
-    width: 55%;
-    height: 56px;
-    right: 50%;
-    transform: translateX(50%);
-    top: auto;
-    bottom: 18px;
-  }
+  /* ----- Our Collection ----- */
+  .products-our { margin-left: auto; margin-right: auto; padding: 40px 0; }
+  .products-cards-our { width: 92%; flex-direction: column; gap: 18px; }
+  .cards-our-one, .cards-our-two { width: 100%; }
+  .card { flex-direction: column; text-align: center; }
+  .card-media { width: 100%; height: 220px; }
+  .products-btn { width: 60%; height: 56px; margin-top: 28px; }
 
-  .text-one,
-  .text-two {
-    height: auto;
-    padding-bottom: 18px;
-  }
-
-  .text-big {
-    padding-left: 18px;
-    padding-right: 18px;
-  }
-
-  .text-small {
-    width: 100%;
-    padding-left: 18px;
-    padding-right: 18px;
-  }
-
-  /* ---------- Products our cards ---------- */
-  .products-our {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 40px 0;
-  }
-
-  .products-cards-our {
-    width: 92%;
-    flex-direction: column;
-    gap: 18px;
-  }
-
-  .cards-our-one,
-  .cards-our-two {
-    width: 100%;
-  }
-
-  .card {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .card-media {
-    width: 100%;
-    height: 220px;
-  }
-
-  .products-btn {
-    width: 60%;
-    height: 56px;
-    margin-top: 28px;
-  }
-
-  /* ---------- Contact section ---------- */
-  .contact-us-broduct {
-    flex-direction: column;
-    gap: 14px;
-    margin: 14px auto;
-  }
-
-  .contact-us-img img {
-    width: 100%;
-  }
-
-  .contact-us-info {
-    width: 100%;
-    margin-right: 0;
-    padding: 22px 0;
-
-    overflow: hidden; /* ✅ يمنع أي حاجة تطلع برّه */
-    border-radius: 25px;
-  }
-
-  .contact-us-title {
-    margin-top: 30px;
-  }
-  .contact-us-title-two {
-    font-size: 44px;
-  }
-
-  .contact-us-title-three {
-    margin: 18px 18px;
-    font-size: 18px;
-    text-align: center;
-  }
-
-  /* ✅ FORM FIX (no overflow + better fit) */
-  .contact-us-form {
-    width: 100%;
-  }
+  /* ----- Contact ----- */
+  .contact-us-broduct { flex-direction: column; gap: 14px; margin: 14px auto; }
+  .contact-us-img img { width: 100%; }
+  .contact-us-info { width: 100%; margin-right: 0; padding: 22px 0; overflow: hidden; border-radius: 25px; }
+  .contact-us-title { margin-top: 30px; }
+  .contact-us-title-two { font-size: 44px; }
+  .contact-us-title-three { margin: 18px; font-size: 18px; text-align: center; }
+  .contact-us-form { width: 100%; }
 
   .contact-form,
   .form-grid,
@@ -1163,178 +1014,95 @@ img {
   .form-group input,
   .form-group textarea,
   .form-actions,
-  .form-actions button {
-    box-sizing: border-box; /* ✅ أهم سطر للفورم */
-  }
+  .form-actions button { box-sizing: border-box; }
 
-  .contact-form {
-    width: 92%;
-    max-width: 520px;
-    margin: 0 auto;
-  }
+  .contact-form { width: 92%; max-width: 520px; margin: 0 auto; }
+  .form-grid { grid-template-columns: 1fr; gap: 14px; }
+  .form-group { width: 100%; min-width: 0; }
+  .form-group input, .form-group textarea { width: 100%; max-width: 100%; display: block; }
+  .form-group label { font-size: 15px; margin-bottom: 8px; }
+  .form-group input { height: 46px; padding: 0 14px; }
+  .form-group textarea { height: 140px; padding: 14px; }
+  .form-actions { justify-content: center; margin-top: 14px; }
+  .form-actions button { width: 100%; max-width: 420px; height: 54px; font-size: 18px; }
 
-  .form-grid {
-    grid-template-columns: 1fr;
-    gap: 14px;
-  }
-
-  .form-group {
-    width: 100%;
-    min-width: 0;
-  }
-
-  .form-group input,
-  .form-group textarea {
-    width: 100%;
-    max-width: 100%;
-    display: block;
-  }
-
-  .form-group label {
-    font-size: 15px;
-    margin-bottom: 8px;
-  }
-
-  .form-group input {
-    height: 46px;
-    padding: 0 14px;
-  }
-
-  .form-group textarea {
-    height: 140px;
-    padding: 14px;
-  }
-
-  .form-actions {
-    justify-content: center;
-    margin-top: 14px;
-  }
-
-  .form-actions button {
-    width: 100%;
-    max-width: 420px;
-    height: 54px;
-    font-size: 18px;
-  }
-
-  /* ---------- Description ---------- */
+  /* ----- Description ----- */
   .description {
     flex-direction: column;
     height: auto;
     gap: 14px;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .description-title-one,
-  .description-title-two {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-  }
+  .description-title-two { width: 100%; margin-left: 0; margin-right: 0; }
 
-  .description-title-one {
-    padding: 24px 18px;
-  }
-  .description-title-two {
-    padding: 24px 18px;
-  }
+  .description-title-one { padding: 24px 18px; }
+  .description-title-two { padding: 24px 18px; }
+  .description-two { width: 100%; font-size: 40px; }
+  .description-three { width: 100%; }
+  .description-title-two hr { margin-left: 0; width: 100%; }
+  .description-card { margin-left: 0; }
+  .description-card p { width: 100%; }
 
-  .description-two {
-    width: 100%;
-    font-size: 40px;
-  }
-  .description-three {
-    width: 100%;
-  }
-
-  .description-title-two hr {
-    margin-left: 0;
-    width: 100%;
-  }
-  .description-card {
-    margin-left: 0;
-  }
-  .description-card p {
-    width: 100%;
-  }
-
-  /* ---------- Footer ---------- */
-  .neo-wrap {
-    padding: 28px 18px;
-  }
-  .neo-head {
-    flex-direction: column;
-  }
-  .neo-grid {
-    grid-template-columns: 1fr;
-  }
-  .neo-form {
-    flex-direction: column;
-  }
-  .neo-form button {
-    width: 100%;
-    height: 44px;
-  }
+  /* ----- Footer ----- */
+  .neo-wrap { padding: 28px 18px; }
+  .neo-head { flex-direction: column; }
+  .neo-grid { grid-template-columns: 1fr; }
+  .neo-form { flex-direction: column; }
+  .neo-form button { width: 100%; height: 44px; }
 }
 
-/* ✅ Small phones */
+/* ===== SMALL PHONES ===== */
 @media (max-width: 480px) {
-  .header-title h1 {
-    font-size: 32px;
-  }
-  .important-text {
-    font-size: 26px;
-  }
-  .contact-us-title-two {
-    font-size: 38px;
-  }
-  .description-two {
-    font-size: 32px;
-  }
-  .button-head {
-    width: 70%;
-  }
-  .contact-form {
-    max-width: 420px;
-  }
-
-  .container {
-    border-radius: 20px;
-  } /* ✅ حواف أنعم */
+  .container { border-radius: 20px; }
+  .header-title h1 { font-size: 32px; }
+  .important-text { font-size: 26px; }
+  .contact-us-title-two { font-size: 38px; }
+  .description-two { font-size: 32px; }
+  .button-head { width: 70%; }
+  .contact-form { max-width: 420px; }
 }
 
-/* =========================
-   NAVBAR FIX (like 2nd screenshot)
-   add at VERY END
-   ========================= */
 
-@media (max-width: 768px) {
-  .container {
-    border-radius: 24px;
-    overflow: hidden;
-    padding: 18px 18px 16px;
+
+@media (max-width: 480px){
+  .container,
+  .title-about,
+  .books-info,
+  .products-our,
+  .contact-us-broduct,
+  .description,
+  .neo-wrap{
+    width: 94%;
+    margin: 12px auto;
   }
 
-  /* خلي اللينكات والزرار ينزلوا تحت بشكل مرتب */
-  .all-links {
+
+
+  
+  .container{
+    width: 90%;
+    
+  }
+  .all-links{
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
+
     gap: 12px;
     width: 100%;
   }
 
-  .link-1 ul {
-    width: 100%;
-    flex-wrap: wrap;
-    gap: 16px;
-  }
 
-  /* ✅ بدل border-top اللي بيكسر الحواف */
-  .link-2 ul {
+    .link-2 ul{
     width: 100%;
     padding-left: 0;
     border-left: none;
 
-    border-top: 0; /* مهم */
+    border-top: 0;          /* مهم */
     padding-top: 14px;
     margin-top: 8px;
 
@@ -1345,12 +1113,13 @@ img {
   }
 
   /* ✅ خط جوه الكارد مش لحد الحافة */
-  .link-2 ul::before {
+  .link-2 ul::before{
     content: "";
     position: absolute;
+    width: 100%;
     top: 0;
-    left: 14px;
-    right: 14px;
-    border-top: 1px solid rgba(255, 255, 255, 0.35);
+    left: 0px;
+    border-top: 1px solid rgba(255,255,255,0.35);
   }
+
 }

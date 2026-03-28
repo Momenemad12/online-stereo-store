@@ -603,20 +603,25 @@ img {
 @media (max-width: 768px) {
   /* navbar */
   .container {
-    width: calc(100% - 24px);
     margin: 12px auto;
     height: auto;
     padding: 14px 14px;
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
+        width: 92%;
+    margin: 14px auto;
   }
 
-  .all-links {
-    width: 100%;
-    flex-wrap: wrap;
-    gap: 12px;
-  }
+ .all-links {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+}
+
+
 
   .link-1 ul {
     flex-wrap: wrap;
@@ -626,7 +631,7 @@ img {
   .link-2 ul {
     padding-left: 0;
     border-left: none;
-    border-top: 1px solid rgba(255, 255, 255, 0.35);
+    /* border-top: 1px solid rgba(255, 255, 255, 0.35); */
     padding-top: 12px;
     width: 100%;
     flex-wrap: wrap;
@@ -697,6 +702,46 @@ img {
 
 /* ✅ Small phones (<= 480px): tighter */
 @media (max-width: 480px) {
+
+
+  .container{
+    width: 90%;
+    
+  }
+  .all-links{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    width: 100%;
+  }
+
+
+    .link-2 ul{
+    width: 100%;
+    padding-left: 0;
+    border-left: none;
+
+    border-top: 0;          /* مهم */
+    padding-top: 14px;
+    margin-top: 8px;
+
+    position: relative;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: flex-start;
+  }
+
+  /* ✅ خط جوه الكارد مش لحد الحافة */
+  .link-2 ul::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0px;
+    border-top: 1px solid rgba(255,255,255,0.35);
+  }
+
+
   .products h2 {
     font-size: 26px;
   }

@@ -582,19 +582,21 @@ img {
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
+        width: 92%;
+    margin: 14px auto;
 
     border-radius: 24px;
     overflow: hidden; /* ✅ prevents clipped look */
   }
 
-  .all-links {
-    width: 100%;
-    display: flex;
-    flex-direction: column; /* ✅ important */
-    align-items: flex-start;
-    gap: 12px;
-  }
-
+.all-links {
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-around; */
+  width: 100%;
+  gap: 30%;
+  /* background-color: #22c55e; */
+}
   .link-1 {
     width: 100%;
   }
@@ -607,17 +609,20 @@ img {
   .link-2 {
     width: 100%;
   }
+ 
+  .books-left{
+    overflow: hidden;
+    display: flex;
+    gap: 20px;
+  }
 
-  /* ✅ remove desktop left border + padding (was breaking corners) */
   .link-2 ul {
     width: 100%;
     padding-left: 0 !important;
     border-left: none !important;
-
     border-top: 0 !important; /* we will draw our own line */
     margin-top: 6px;
     padding-top: 14px;
-
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
@@ -626,16 +631,13 @@ img {
     position: relative;
   }
 
-  /* ✅ inner divider line (not touching corners) */
-  .link-2 ul::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 14px;
-    right: 14px;
-    height: 1px;
-    background: rgba(255, 255, 255, 0.35);
-  }
+.description{
+
+  width: 85%;
+  margin-inline: 20px;
+}
+
+
 
   .btn {
     padding: 8px 14px;
@@ -797,38 +799,52 @@ img {
     height: 44px;
   }
 }
-
-/* ✅ Small phones */
 @media (max-width: 480px) {
-  .title-one- {
-    font-size: 34px;
-  }
-  .title-two {
-    font-size: 16px;
-  }
-
-  .title-one-two {
-    font-size: 36px;
-  }
-  .title-two-two {
-    font-size: 16px;
+  .all-links {
+    display: flex;
+    flex-direction: row;        /* ← غيّرها من column لـ row */
+    flex-wrap: wrap;            /* ← عشان يلف لو ضاق */
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    width: 100%;
   }
 
-  .text-big {
-    font-size: 22px;
-  }
-  .text-small {
-    font-size: 15px;
+  .link-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
   }
 
-  .description-three {
-    font-size: 20px;
+  .link-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
   }
-  .description-card p {
-    font-size: 20px;
+
+  .link-2 ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0;
+    margin-top: 20px;
+    border: none;
+    list-style: none;
+  }
+    .link-2 ul::before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    top: -15px;
+    left: 0px;
+    border-top: 1px solid rgba(255,255,255,0.35);
   }
 }
-
 /* =========================
    FORM INPUTS FIX (GLOBAL SAFE)
    put AFTER everything too
